@@ -80,3 +80,58 @@ input[type="number"] {
 .securityScoreSVG {
   transition: color 0.25s ease;
 }
+
+@media (max-width: 650px) {
+  .settings-flex {
+    flex-direction: column;
+  }
+  .checkbox-container-2 {
+    margin-top: -80px;
+  }
+}
+
+
+
+/* Extra small devices (portrait phones, less than 544px) */
+/* Small devices (landscape phones, 544px and up) */
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+
+/* Specific Sizes */
+/*  XS Size */
+@media (max-width: 544px) {}
+
+/*  S Size */
+@media (min-width: 544px) and (max-width: 768px) {}
+
+/*  Medium */
+@media (min-width: 768px) and (max-width: 992px) {}
+
+/* Large */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+/* Full Size - Extra Large Desktop and Up */
+@media (min-width: 1200px) {}
+
+/*Under Sizes*/
+/* Everything under medium - XS and S Size - Mobile*/
+@media (max-width: 768px) {}
+
+/* Everything Under Large Size */
+@media (max-width: 992px) {}
+
+/* Everything Under Extra Large Size */
+@media (max-width: 1200px) {}
+
+/*Over Sizes*/
+/* Everything Over Small Size */
+@media (min-width: 544px) {}
+
+/* Everything Over Medium Tablet Size */
+@media (min-width: 768px) {}
+
+/* Everything Over Large Size */
+@media (min-width: 992px) {}
+
+

@@ -199,8 +199,8 @@ function App() {
             </span>
           </div>
         </div>
-        <div className="flex">
-          <div className="w-full md:w-1/4 px-8 pt-4 pb-8">
+        <div className="settings-flex flex">
+          <div className="checkbox-container checkbox-container-1 w-full md:w-1/4 px-8 pt-4 pb-8">
             <span className="align-top text-sm mb-3 uppercase">Settings</span>
             <ul>
               <li className="mt-2">
@@ -233,7 +233,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 px-8 pt-4 pb-8">
+          <div className="checkbox-container checkbox-container-2 w-full md:w-1/4 px-8 pt-4 pb-8">
             <span className="align-top text-sm mb-3 uppercase">&nbsp;</span>
             <ul>
               <li className="mt-2">
@@ -267,7 +267,7 @@ function App() {
             </ul>
           </div>
 
-          <div className="w-full md:w-2/4 px-8 pt-4 pb-8">
+          <div className="slider-container w-full md:w-2/4 px-8 pt-4 pb-8">
             <span className="align-top text-sm mb-3 uppercase">Length</span>
             <br />
 
