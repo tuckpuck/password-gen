@@ -234,7 +234,9 @@ function App() {
             </ul>
           </div>
           <div className="checkbox-container checkbox-container-2 w-full md:w-1/4 px-8 pt-4 pb-8">
-            <span className="align-top text-sm mb-3 uppercase">&nbsp;</span>
+            <span className="checkbox-container-2-span align-top text-sm mb-3 uppercase">
+              &nbsp;
+            </span>
             <ul>
               <li className="mt-2">
                 <input
