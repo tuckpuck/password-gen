@@ -104,7 +104,14 @@ input[type="number"] {
 
   .checkbox-container {
     padding-left: 22px !important;
-}
+  }
+  .form-checkbox {
+    height: 1.75rem !important;
+    width: 1.75rem !important;
+  }
+  .generatePasswordButton {
+      height: 60px;
+  }
 }
 
 
